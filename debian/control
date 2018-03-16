@@ -1,0 +1,23 @@
+Source: libyuv
+Priority: optional
+Maintainer: neon <rohan@garg.io>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Section: libs
+Homepage: https://chromium.googlesource.com/libyuv/libyuv/
+
+Package: libyuv-dev
+Section: libdevel
+Architecture: any
+Depends: libyuv (= ${binary:Version}), ${misc:Depends}
+Description: library that includes YUV scaling and conversion functionality - development headers
+ libyuv includes YUV scaling and conversion functionality
+ .
+ This package includes the development headers for libyuv
+ 
+Package: libyuv
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library that includes YUV scaling and conversion functionality
+ libyuv includes YUV scaling and conversion functionality
+

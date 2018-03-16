@@ -1,0 +1,5 @@
+libyuv (0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- neon <rohan@garg.io>  Fri, 16 Mar 2018 12:54:31 +0100
